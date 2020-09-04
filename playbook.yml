@@ -1,0 +1,8 @@
+---
+- name: Test Playbook
+  hosts: all
+  tasks:
+  - name: Dummy task
+    debug:
+      msg: "Success."
+
